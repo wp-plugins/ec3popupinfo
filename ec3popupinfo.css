@@ -1,0 +1,12 @@
+@charset "utf-8";
+/*
+ * ec3popupinfo.css
+ * -*- Encoding: utf8n -*-
+ */
+
+#ec3popupinfo_layer1 {
+  padding: 10px;
+  border: 1px solid gray;
+  background: #ffe57c;
+}
+
