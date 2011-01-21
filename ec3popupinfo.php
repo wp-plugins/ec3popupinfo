@@ -4,7 +4,7 @@ Plugin Name: Ec3popupinfo
 Plugin URI: http://takeai.silverpigeon.jp/
 Description: Ec3popupinfo is a plugin that popup message on mouse over the event-calendar plugin.
 Author: AI.Takeuchi
-Version: 0.1.2
+Version: 0.1.3
 Author URI: http://takeai.silverpigeon.jp/
 */
 
@@ -39,11 +39,7 @@ if (is_admin()) {
     // Registration of management screen function.
     add_action('admin_menu', array(&$wpEc3popupinfo, 'addAdminMenu'));
 } else {
-    wp_enqueue_script('jQuery', WP_PLUGIN_URL . '/ec3popupinfo/module/jquery.js', null, '1.3.2');
-    //wp_enqueue_script('jQuery.timer', WP_PLUGIN_URL . '/ec3popupinfo/module/jquery.timer.js', null, null);
-    //wp_enqueue_script('jQuery.delay', WP_PLUGIN_URL . '/ec3popupinfo/module/jquery.delay.js', null, null);
-    //wp_enqueue_script('jQuery.cookie', WP_PLUGIN_URL . '/ec3popupinfo/module/jquery.cookie.js', null, null);
-    //wp_enqueue_script('jQuery.droppy', WP_PLUGIN_URL . '/ec3popupinfo/module/jquery.droppy.js', null, null);
+    wp_enqueue_script('jquery');
     //require_once('module/add_wp_head.php');
     //add_action('wp_head', 'add_wp_head');
     require_once('module/ec3popupinfo_wp_head.php');

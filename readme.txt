@@ -4,14 +4,14 @@ Donate link: http://takeai.silverpigeon.jp/
 Tags: event calendar, plugin, popup, wordpress, day information
 Requires at least: 2.6
 Tested up to: 3.0.4
-Stable tag: 0.1.2
+Stable tag: 0.1.3
 
 Ec3popupinfo is a plugin that is popup day information on mouse over the event-calendar plugin widget.
 
 == Description ==
 
 Ec3popupinfo is a plugin that popup message on mouse over the event-calendar plugin.
-
+w
 
 == Installation ==
 
@@ -21,6 +21,10 @@ Ec3popupinfo is a plugin that popup message on mouse over the event-calendar plu
 4. Visit Settings Ec3popupinfo.
 5. Input data and save.
 
+== Changelog ==
+
+= 0.1.3 =
+* Bug fix: way to loading jQuery.
 
 == Screenshots ==
 
